@@ -1,0 +1,651 @@
+[
+  {
+    "pregunta": "¿Puede NAT SRC usar 'in-interface'?",
+    "tipo": "simple",
+    "opciones": {"A": "Verdadero", "B": "Falso"},
+    "correcta": ["B"]
+  },
+  {
+    "pregunta": "Regla correcta de masquerade",
+    "tipo": "simple",
+    "opciones": {
+      "A": "action=masquerade chain=srcnat out-interface=ether1",
+      "B": "action=accept",
+      "C": "chain=dstnat",
+      "D": "in-interface"
+    },
+    "correcta": ["A"]
+  },
+  {
+    "pregunta": "Desactivar para permitir solo clientes conocidos",
+    "tipo": "simple",
+    "opciones": {
+      "A": "Default forward",
+      "B": "Access list enable",
+      "C": "Default authenticate",
+      "D": "Security profile"
+    },
+    "correcta": ["C"]
+  },
+  {
+    "pregunta": "¿Se puede limitar número de clientes en AP?",
+    "tipo": "simple",
+    "opciones": {
+      "A": "Sí con access list",
+      "B": "No",
+      "C": "Sí"
+    },
+    "correcta": ["C"]
+  },
+  {
+    "pregunta": "Estados válidos de rutas",
+    "tipo": "multiple",
+    "opciones": {
+      "A": "Connected",
+      "B": "Static",
+      "C": "Active",
+      "D": "Dynamic"
+    },
+    "correcta": ["A","B","C"]
+  },
+  {
+    "pregunta": "¿Es necesario DNS local para DHCP?",
+    "tipo": "simple",
+    "opciones": {"A": "Verdadero", "B": "Falso"},
+    "correcta": ["B"]
+  },
+  {
+    "pregunta": "Usuarios en /user",
+    "tipo": "simple",
+    "opciones": {
+      "A": "PPTP",
+      "B": "Hotspot",
+      "C": "Router",
+      "D": "Wireless"
+    },
+    "correcta": ["C"]
+  },
+  {
+    "pregunta": "¿Cuántos DHCP por interfaz?",
+    "tipo": "simple",
+    "opciones": {"A": "255", "B": "1024", "C": "4", "D": "1"},
+    "correcta": ["D"]
+  },
+  {
+    "pregunta": "Configuración agregada por hotspot setup",
+    "tipo": "multiple",
+    "opciones": {
+      "A": "/ip hotspot user",
+      "B": "queue tree",
+      "C": "/ip service",
+      "D": "/ip dhcp-server",
+      "E": "/ip hotspot walled-garden"
+    },
+    "correcta": ["A","D","E"]
+  },
+  {
+    "pregunta": "Puerto por defecto Winbox",
+    "tipo": "simple",
+    "opciones": {"A": "8080", "B": "22", "C": "5678", "D": "8291"},
+    "correcta": ["D"]
+  },
+  {
+    "pregunta": "DHCP en red con bridge",
+    "tipo": "simple",
+    "opciones": {
+      "A": "Solo bridge",
+      "B": "Cada puerto",
+      "C": "No posible",
+      "D": "Interfaces separadas"
+    },
+    "correcta": ["A"]
+  },
+  {
+    "pregunta": "¿Cliente y servidor PPTP simultáneo?",
+    "tipo": "simple",
+    "opciones": {"A": "Verdadero", "B": "Falso"},
+    "correcta": ["A"]
+  },
+  {
+    "pregunta": "Usar secretos PPP de otro router",
+    "tipo": "simple",
+    "opciones": {"A": "Verdadero", "B": "Falso"},
+    "correcta": ["B"]
+  },
+  {
+    "pregunta": "Bypass hotspot",
+    "tipo": "simple",
+    "opciones": {
+      "A": "ip-binding",
+      "B": "walled garden ip",
+      "C": "walled garden",
+      "D": "ip address"
+    },
+    "correcta": ["A"]
+  },
+  {
+    "pregunta": "Acción redirect firewall",
+    "tipo": "multiple",
+    "opciones": {
+      "A": "Puerto en host",
+      "B": "IP",
+      "C": "Router",
+      "D": "Puerto en router"
+    },
+    "correcta": ["C","D"]
+  },
+  {
+    "pregunta": "Modo wireless compatible universal",
+    "tipo": "simple",
+    "opciones": {
+      "A": "Station",
+      "B": "Bridge",
+      "C": "Station-pseudobridge",
+      "D": "WDS"
+    },
+    "correcta": ["C"]
+  },
+  {
+    "pregunta": "Acciones válidas firewall",
+    "tipo": "multiple",
+    "opciones": {
+      "A": "Accept",
+      "B": "Drop",
+      "C": "Reject",
+      "D": "Log"
+    },
+    "correcta": ["A","B","C","D"]
+  },
+  {
+    "pregunta": "Capas modelo OSI",
+    "tipo": "simple",
+    "opciones": {"A": "9", "B": "6", "C": "5", "D": "7"},
+    "correcta": ["D"]
+  },
+  {
+    "pregunta": "Control de ancho en access-list wireless",
+    "tipo": "simple",
+    "opciones": {"A": "Verdadero", "B": "Falso"},
+    "correcta": ["A"]
+  },
+  {
+    "pregunta": "Rango válido /27",
+    "tipo": "simple",
+    "opciones": {
+      "A": "33-63",
+      "B": "33-62",
+      "C": "31-62",
+      "D": "32-63"
+    },
+    "correcta": ["B"]
+  },
+  {
+    "pregunta": "¿Qué menú se usa para cambiar el puerto de Winbox?",
+    "tipo": "simple",
+    "opciones": {
+      "A": "/ip service",
+      "B": "/ip firewall service-ports",
+      "C": "/ip firewall filter",
+      "D": "/system resource"
+    },
+    "correcta": ["A"]
+  },
+  {
+    "pregunta": "¿El backup de MikroTik es texto plano?",
+    "tipo": "simple",
+    "opciones": {"A": "Verdadero", "B": "Falso"},
+    "correcta": ["B"]
+  },
+  {
+    "pregunta": "En colas, 'total' representa",
+    "tipo": "simple",
+    "opciones": {
+      "A": "Download",
+      "B": "Upload + Download",
+      "C": "Download - Upload",
+      "D": "Upload"
+    },
+    "correcta": ["B"]
+  },
+  {
+    "pregunta": "¿ARP se usa en IPv6?",
+    "tipo": "simple",
+    "opciones": {"A": "Verdadero", "B": "Falso"},
+    "correcta": ["B"]
+  },
+  {
+    "pregunta": "ARP reply-only permite",
+    "tipo": "multiple",
+    "opciones": {
+      "A": "Añadir MAC dinámicas",
+      "B": "Añadir IP dinámicas",
+      "C": "Aceptar MAC listadas",
+      "D": "Aceptar IP listadas",
+      "E": "Aceptar IP/MAC listadas"
+    },
+    "correcta": ["E"]
+  },
+  {
+    "pregunta": "Configuración correcta cliente",
+    "tipo": "simple",
+    "opciones": {
+      "A": "192.168.1.223 GW 248.115.148.136",
+      "B": "192.168.2.2 GW 202.168.125.45",
+      "C": "192.168.0.1 GW 192.168.2.1",
+      "D": "192.168.2.253 GW 202.168.0.1",
+      "E": "192.168.2.115 GW 192.168.2.1"
+    },
+    "correcta": ["E"]
+  },
+  {
+    "pregunta": "Máscaras válidas",
+    "tipo": "multiple",
+    "opciones": {
+      "A": "192.0.0.0",
+      "B": "255.255.192.255",
+      "C": "255.255.224.0",
+      "D": "255.192.0.0"
+    },
+    "correcta": ["C","D"]
+  },
+  {
+    "pregunta": "Unidad capa física",
+    "tipo": "simple",
+    "opciones": {
+      "A": "Frame",
+      "B": "Header",
+      "C": "Byte",
+      "D": "Bit"
+    },
+    "correcta": ["D"]
+  },
+  {
+    "pregunta": "Capas OSI",
+    "tipo": "simple",
+    "opciones": {
+      "A": "5",
+      "B": "7",
+      "C": "12",
+      "D": "9"
+    },
+    "correcta": ["B"]
+  },
+  {
+    "pregunta": "Capa MAC pertenece a",
+    "tipo": "simple",
+    "opciones": {
+      "A": "1",
+      "B": "2",
+      "C": "3",
+      "D": "4"
+    },
+    "correcta": ["B"]
+  },
+  {
+    "pregunta": "Hosts que pueden comunicarse",
+    "tipo": "multiple",
+    "opciones": {
+      "A": "192.168.17.15/29 y 192.168.17.20/28",
+      "B": "10.5.5.1/24 y 10.5.5.100/25",
+      "C": "10.10.0.17/22 y 10.10.1.30/23",
+      "D": "192.168.0.5/26 y 192.168.0.100/26"
+    },
+    "correcta": ["B","C"]
+  },
+  {
+    "pregunta": "IP públicas",
+    "tipo": "multiple",
+    "opciones": {
+      "A": "11.63.72.21",
+      "B": "10.110.50.37",
+      "C": "172.28.73.21",
+      "D": "192.168.0.1",
+      "E": "172.168.254.2"
+    },
+    "correcta": ["A","E"]
+  },
+  {
+    "pregunta": "Dirección hardware",
+    "tipo": "simple",
+    "opciones": {
+      "A": "MAC",
+      "B": "IP",
+      "C": "FQDN",
+      "D": "Interface"
+    },
+    "correcta": ["A"]
+  },
+  {
+    "pregunta": "IP enrutable",
+    "tipo": "multiple",
+    "opciones": {
+      "A": "127.34.155.3",
+      "B": "11.3.10.4",
+      "C": "172.16.13.23",
+      "D": "192.168.1.4"
+    },
+    "correcta": ["B"]
+  },
+  {
+    "pregunta": "IP válidas",
+    "tipo": "multiple",
+    "opciones": {
+      "A": "1.27.14.254",
+      "B": "192.168.13.255",
+      "C": "192.168.256.1",
+      "D": "10.10.14.0"
+    },
+    "correcta": ["A","B"]
+  },
+  {
+    "pregunta": "IP válida router /30",
+    "tipo": "multiple",
+    "opciones": {
+      "A": "192.168.100.69",
+      "B": "192.168.100.70",
+      "C": "192.168.100.71",
+      "D": "192.168.100.68"
+    },
+    "correcta": ["A"]
+  },
+  {
+    "pregunta": "IPs utilizables /20",
+    "tipo": "simple",
+    "opciones": {
+      "A": "4096",
+      "B": "2046",
+      "C": "2047",
+      "D": "2048",
+      "E": "4094"
+    },
+    "correcta": ["E"]
+  },
+  {
+    "pregunta": "IPs en cabecera IP",
+    "tipo": "simple",
+    "opciones": {
+      "A": "4",
+      "B": "3",
+      "C": "2",
+      "D": "1"
+    },
+    "correcta": ["C"]
+  },
+  {
+    "pregunta": "Protocolo ping",
+    "tipo": "simple",
+    "opciones": {
+      "A": "UDP",
+      "B": "TCP",
+      "C": "ARP",
+      "D": "ICMP"
+    },
+    "correcta": ["D"]
+  },
+  {
+    "pregunta": "ARP reply-only crea dinámicos",
+    "tipo": "simple",
+    "opciones": {"A": "Verdadero", "B": "Falso"},
+    "correcta": ["B"]
+  },
+  {
+    "pregunta": "Dirección de red es",
+    "tipo": "simple",
+    "opciones": {
+      "A": "Última IP",
+      "B": "Primera usable",
+      "C": "Primera de la subred"
+    },
+    "correcta": ["C"]
+  },
+  {
+    "pregunta": "MAC válida",
+    "tipo": "simple",
+    "opciones": {
+      "A": "192.168.0/16",
+      "B": "AEC8:21F1:AA44:54FF:1111:DDAE:0212:1201",
+      "C": "00:00:5E:80:EE:B0",
+      "D": "G2:60:CF:21:99:H0"
+    },
+    "correcta": ["C"]
+  },
+  {
+    "pregunta": "Redirect se usa en",
+    "tipo": "simple",
+    "opciones": {
+      "A": "srcnat",
+      "B": "dstnat",
+      "C": "forward"
+    },
+    "correcta": ["B"]
+  },
+  {
+    "pregunta": "Frecuencias 802.11b/g",
+    "tipo": "multiple",
+    "opciones": {
+      "A": "5800 MHz",
+      "B": "2412 MHz",
+      "C": "5210 MHz",
+      "D": "2422 MHz",
+      "E": "2327 MHz"
+    },
+    "correcta": ["B","D"]
+  },
+  {
+    "pregunta": "Export .rsc",
+    "tipo": "multiple",
+    "opciones": {
+      "A": "Exporta logs",
+      "B": "Exporta config",
+      "C": "Exporta partes",
+      "D": "Exporta scripts",
+      "E": "No editable"
+    },
+    "correcta": ["B","C","D"]
+  },
+  {
+    "pregunta": "WiFi 100 Mbps real",
+    "tipo": "simple",
+    "opciones": {
+      "A": "b/g",
+      "B": "a/b/g",
+      "C": "a",
+      "D": "a/n",
+      "E": "a/b/g/n"
+    },
+    "correcta": ["E"]
+  },
+  {
+    "pregunta": "Agregar chain mangle",
+    "tipo": "simple",
+    "opciones": {"A": "Sí", "B": "No"},
+    "correcta": ["A"]
+  },
+  {
+    "pregunta": "Redirect permite",
+    "tipo": "multiple",
+    "opciones": {
+      "A": "DNS transparente",
+      "B": "Reenviar DNS externo",
+      "C": "Activar servicio local",
+      "D": "Proxy HTTP transparente"
+    },
+    "correcta": ["A","D"]
+  },
+  {
+    "pregunta": "Masquerade correcto",
+    "tipo": "simple",
+    "opciones": {
+      "A": "srcnat",
+      "B": "srcnat + src-address",
+      "C": "dstnat",
+      "D": "srcnat + out-interface"
+    },
+    "correcta": ["D"]
+  },
+  {
+    "pregunta": "Ruta automática",
+    "tipo": "multiple",
+    "opciones": {
+      "A": "I",
+      "B": "D",
+      "C": "A",
+      "D": "O",
+      "E": "C"
+    },
+    "correcta": ["C","A"]
+  },
+  {
+    "pregunta": "Drivers manuales",
+    "tipo": "simple",
+    "opciones": {"A": "Sí", "B": "No"},
+    "correcta": ["B"]
+  },
+  {
+    "pregunta": "Routing requiere",
+    "tipo": "simple",
+    "opciones": {
+      "A": "Ninguno",
+      "B": "DHCP",
+      "C": "Routing package",
+      "D": "Advanced tools"
+    },
+    "correcta": ["A"]
+  },
+  {
+    "pregunta": "Queue simple requiere",
+    "tipo": "simple",
+    "opciones": {
+      "A": "Target + max-limit",
+      "B": "2 targets",
+      "C": "Target",
+      "D": "Max-limit"
+    },
+    "correcta": ["A"]
+  },
+  {
+    "pregunta": "Traceroute usa",
+    "tipo": "simple",
+    "opciones": {
+      "A": "DHCP",
+      "B": "IP",
+      "C": "TCP",
+      "D": "ICMP",
+      "E": "UDP"
+    },
+    "correcta": ["D"]
+  },
+  {
+    "pregunta": "Winbox se obtiene de",
+    "tipo": "multiple",
+    "opciones": {
+      "A": "Login router",
+      "B": "Files",
+      "C": "Cable consola",
+      "D": "mikrotik.com"
+    },
+    "correcta": ["A","D"]
+  },
+  {
+    "pregunta": "Hosts misma red",
+    "tipo": "multiple",
+    "opciones": {
+      "A": "10.1.2.66/25 y 10.1.2.109/26",
+      "B": "10.2.2.1/23 y 10.2.0.1/22",
+      "C": "10.1.2.192/24 y 10.1.2.129/26",
+      "D": "10.2.1.0/23 y 10.2.0.1/22"
+    },
+    "correcta": ["C"]
+  },
+  {
+    "pregunta": "Radio name sirve para",
+    "tipo": "multiple",
+    "opciones": {
+      "A": "Clientes conectados",
+      "B": "Access list",
+      "C": "Neighbor discovery"
+    },
+    "correcta": ["A","B","C"]
+  },
+  {
+    "pregunta": "Usuarios PPP secret",
+    "tipo": "multiple",
+    "opciones": {
+      "A": "PPTP",
+      "B": "L2TP",
+      "C": "Winbox",
+      "D": "Wireless",
+      "E": "PPPoE",
+      "F": "Hotspot"
+    },
+    "correcta": ["A","B","E"]
+  },
+  {
+    "pregunta": "PPPoE secrets remotos",
+    "tipo": "simple",
+    "opciones": {"A": "Sí", "B": "No"},
+    "correcta": ["B"]
+  },
+  {
+    "pregunta": "DHCP client recibe",
+    "tipo": "multiple",
+    "opciones": {
+      "A": "Byte limit",
+      "B": "Gateway",
+      "C": "Rate limit",
+      "D": "Uptime",
+      "E": "IP/Subnet"
+    },
+    "correcta": ["B","E"]
+  },
+  {
+    "pregunta": "Hotspot solo ethernet",
+    "tipo": "simple",
+    "opciones": {"A": "Sí", "B": "No"},
+    "correcta": ["B"]
+  },
+  {
+    "pregunta": "Bypass hotspot PC",
+    "tipo": "simple",
+    "opciones": {
+      "A": "Users",
+      "B": "IP Binding",
+      "C": "Walled Garden",
+      "D": "Walled Garden IP"
+    },
+    "correcta": ["B"]
+  },
+  {
+    "pregunta": "Prioridades colas",
+    "tipo": "simple",
+    "opciones": {
+      "A": "8",
+      "B": "16",
+      "C": "0",
+      "D": "1"
+    },
+    "correcta": ["A"]
+  },
+  {
+    "pregunta": "Ruta por defecto activa",
+    "tipo": "simple",
+    "opciones": {
+      "A": "1.1.1.1",
+      "B": "2.2.2.2"
+    },
+    "correcta": ["B"]
+  },
+  {
+    "pregunta": "Licencia level 1",
+    "tipo": "simple",
+    "opciones": {
+      "A": "24h",
+      "B": "Infinito",
+      "C": "1 mes",
+      "D": "1 año"
+    },
+    "correcta": ["A"]
+  }
+]
+
+  
